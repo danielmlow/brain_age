@@ -75,8 +75,12 @@ A parcel-based functional connectivity matrix was obtained from the resting-stat
 * NKI_CNP_func_validation_age.ipynb
 
 
+# References
+Gorgolewski, K. J., Durnez, J., & Poldrack, R. A. (2017). Preprocessed Consortium for Neuropsychiatric Phenomics dataset. F1000Research, 6.
 
+Liem, F., Varoquaux, G., Kynast, J., Beyer, F., Masouleh, S. K., Huntenburg, J. M., ... & Riedel-Heller, S. (2017). Predicting brain-age from multimodal imaging data captures cognitive impairment. NeuroImage, 148, 179-188.
 
+Nooner, K. B., Colcombe, S., Tobe, R., Mennes, M., Benedict, M., Moreno, A., ... & Sikka, S. (2012). The NKI-Rockland sample: a model for accelerating the pace of discovery science in psychiatry. Frontiers in neuroscience, 6, 152.
 
 
 
