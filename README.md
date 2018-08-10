@@ -45,12 +45,11 @@ A parcel-based functional connectivity matrix was obtained from the resting-stat
 ### 1.3.1. T1
 
 #### 1.3.1.1. Preprocessing
-
-
+* CNP_clinical_T1_preprocess.ipynb
 
 
 #### 1.3.1.2. Validation
-
+* CNP_clinical_T1_validation_age.ipynb
 
 
 ### 1.3.2. Func
@@ -61,7 +60,7 @@ A parcel-based functional connectivity matrix was obtained from the resting-stat
 
 
 #### 1.3.2.2. Validation
-
+* CNP_clinical_func_validation_age.ipynb
 
 # NKI
 # Preprocess 
