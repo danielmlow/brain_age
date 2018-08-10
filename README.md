@@ -24,10 +24,11 @@ Preprocessing outputs npz files.
 * CNP_T1_validation_age.ipynb
 
 
-
 ## 1.2. Resting state functional connectivity (func)
 ### 1.2.1. Preprocessing DONE
 * CNP_func_preprocess_corr_matrix.ipynb
+* Parcell-based Pearson's correlation matrix:
+A parcel-based functional connectivity matrix was obtained from the resting-state functional data of each subject using the the 197- and 444-scale BASC atlases (Bellec et al., 2010). Parcel time-series were obtained by averaging the voxel-specific time-series within each parcel. A functional connectivity matrix was obtained for each subject using Pearson's correlation between the derived parcel time-series. Subsequently, the upper triangular of the connectivity matrix of each subject was extracted and reshaped into a vector that was used to predict age.
 
 ### 1.2.2. Gridsearch DONE
 * CNP_func_gridsearch_age.ipynb
@@ -56,6 +57,7 @@ Preprocessing outputs npz files.
 #### 1.3.2.1. Preprocessing
 
 * CNP_clinical_func_preprocess_corr_matrix.ipynb
+
 
 #### 1.3.2.2. Validation
 
