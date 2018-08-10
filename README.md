@@ -13,8 +13,6 @@ https://docs.google.com/presentation/d/1UoVpXbJ80b4R1JWPdWe5TKYDQd09h3MW30N0h0su
 
 # 1. CNP dataset
 
-Temporary download from: https://www.dropbox.com/sh/dcvzmsmf6eupdtl/AABEH4BDXp9kN2uyO2iznAcTa?dl=0
-
 The model was trained and validated using the control sample (n = 122) from the Consortium for Neuropsychiatric Phenomics dataset (information about preprocessing of the rs-MRI and T1 scans can be found at https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5664981/). The clinical dataset was comprised of three samples:
   - ADHD (n = 40)
   - Bipolar (n = 49)
@@ -69,8 +67,12 @@ A parcel-based functional connectivity matrix was obtained from the resting-stat
 #### 1.3.2.2. Validation
 * CNP_clinical_func_validation_age.ipynb
 
-# NKI
-# Preprocess 
+# 2. NKI
+
+## 2.1 Func
+## 2.1.1. Preprocess 
+## 2.2.1. See how well each dataset can predict the other (CNK and NKI)
+* NKI_CNP_func_validation_age.ipynb
 
 
 
