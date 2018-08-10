@@ -3,13 +3,25 @@ Predicting true age from T1 and resting state data.
 
 Started @ NeuroHackademy 2018
 
-Preprocessing outputs npz files.
-
-
-
-
 Presentation of preliminary results on validation set:
 https://docs.google.com/presentation/d/1UoVpXbJ80b4R1JWPdWe5TKYDQd09h3MW30N0h0sugmU/edit?usp=sharing
+
+
+# 0. TODO
+CNP
+1. Rerun gridsearch. 
+2. T1 for clinical population.
+2. Run crossvalidation instead of train-validation split.
+3. Try to predict clinical population from NKI
+
+NKI
+4. Predict NKI and CNP tuned models
+5. Maybe train NKI models on CNP clinical data
+6. Train multimodel stacked random forest models. 
+7. Clean NKI T1 data
+
+Make example of transforming T1 and resting state for nilearn.
+
 
 # 1. CNP dataset
 
