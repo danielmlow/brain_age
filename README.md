@@ -8,13 +8,14 @@ https://docs.google.com/presentation/d/1UoVpXbJ80b4R1JWPdWe5TKYDQd09h3MW30N0h0su
 
 
 # 0. TODO
-CNP
+## 0.1 CNP
+Split CNP_T1_gridsearch into gridsearch and preprocessing. 
 1. Rerun gridsearch. 
 2. T1 for clinical population.
 2. Run crossvalidation instead of train-validation split.
 3. Try to predict clinical population from NKI
 
-NKI
+## 0.2 NKI
 4. Predict NKI and CNP tuned models
 5. Maybe train NKI models on CNP clinical data
 6. Train multimodel stacked random forest models. 
