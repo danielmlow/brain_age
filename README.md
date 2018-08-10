@@ -6,7 +6,14 @@ Started @ NeuroHackademy 2018
 Preprocessing outputs npz files.
 
 
+
+
+Presentation of preliminary results on validation set:
+https://docs.google.com/presentation/d/1UoVpXbJ80b4R1JWPdWe5TKYDQd09h3MW30N0h0sugmU/edit#slide=id.g4020c96d17_13_55
+
 # 1. CNP dataset
+
+Temporary download from: https://www.dropbox.com/sh/dcvzmsmf6eupdtl/AABEH4BDXp9kN2uyO2iznAcTa?dl=0
 
 The model was trained and validated using the control sample (n = 122) from the Consortium for Neuropsychiatric Phenomics dataset (information about preprocessing of the rs-MRI and T1 scans can be found at https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5664981/). The clinical dataset was comprised of three samples:
   - ADHD (n = 40)
