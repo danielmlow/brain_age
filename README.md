@@ -9,7 +9,7 @@ Preprocessing outputs npz files.
 
 
 Presentation of preliminary results on validation set:
-https://docs.google.com/presentation/d/1UoVpXbJ80b4R1JWPdWe5TKYDQd09h3MW30N0h0sugmU/edit#slide=id.g4020c96d17_13_55
+https://docs.google.com/presentation/d/1UoVpXbJ80b4R1JWPdWe5TKYDQd09h3MW30N0h0sugmU/edit?usp=sharing
 
 # 1. CNP dataset
 
