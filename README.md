@@ -15,6 +15,7 @@ Preprocessing outputs npz files.
 # 1. CNP dataset
 ## 1.1. T1
 ### 1.1.1. Preprocessing DONE
+* CNP_T1_preprocess.ipynb
 
 ### 1.1.2. Gridsearch DONE 
 * CNP_T1_gridsearch_age.ipynb
