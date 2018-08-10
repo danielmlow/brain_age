@@ -1,7 +1,5 @@
 # brain_age
-Predicting true age from T1 and resting state data. 
-
-Started @ NeuroHackademy 2018
+This repository contains documentation for using Support Vector Regression (SVR) to predict brain age from structural and functional MRI data in neurotypical and clinical populations. This repository was developed for Neurohackademy 2018 and the SVR was applied to data from the CNP and NKI datasets. 
 
 Preprocessing outputs npz files.
 
@@ -15,56 +13,49 @@ The model was trained and validated using the control sample (n = 122) from the 
   
   
 ## 1.1. T1
-### 1.1.1. Preprocessing DONE
-* CNP_T1_preprocess.ipynb
+### 1.1.1. Preprocessing 
+* Raw T1 data was vectorized using the MNI 152 mask. 
+* **CNP_T1_preprocess.ipynb**
 
-### 1.1.2. Gridsearch DONE 
-* CNP_T1_gridsearch_age.ipynb
+### 1.1.2. Gridsearch 
+* Features: 100k, all (1.9m)
+* SVC Parameters: 0.0001, 0.001, 0.01
+* **CNP_T1_gridsearch_age.ipynb**
 
 ### 1.1.3. Validation
-* CNP_T1_validation_age.ipynb
+* **CNP_T1_validation_age.ipynb**
 
 
 ## 1.2. Resting state functional connectivity (func)
-### 1.2.1. Preprocessing DONE
-* CNP_func_preprocess_corr_matrix.ipynb
+### 1.2.1. Preprocessing
 * Parcell-based Pearson's correlation matrix:
 A parcel-based functional connectivity matrix was obtained from the resting-state functional data of each subject using the the 197- and 444-scale BASC atlases (Bellec et al., 2010). Parcel time-series were obtained by averaging the voxel-specific time-series within each parcel. A functional connectivity matrix was obtained for each subject using Pearson's correlation between the derived parcel time-series. Subsequently, the upper triangular of the connectivity matrix of each subject was extracted and reshaped into a vector that was used to predict age.
+* **CNP_func_preprocess_corr_matrix.ipynb**
 
-### 1.2.2. Gridsearch DONE
-* CNP_func_gridsearch_age.ipynb
+### 1.2.2. Gridsearch
+* Features: 1k, ALL (19k)
+* SVC Parameters: 0.001, 0.01, 1, 10
+* **CNP_func_gridsearch_age.ipynb**
 
-### 1.2.3. Validation DONE
-* CNP_func_validation_age.ipynb
-
-
+### 1.2.3. Validation
+* **CNP_func_validation_age.ipynb**
 
 ## 1.3. Clinical 
-
 
 ### 1.3.1. T1
 
 #### 1.3.1.1. Preprocessing
-
-
-
+* **CNP_clinical_T1_preprocess.ipynb**
 
 #### 1.3.1.2. Validation
 
+### 1.4.1 Functional Connectivity (func)
 
+#### 1.4.1.1. Preprocessing
+* **CNP_clinical_func_preprocess_corr_matrix.ipynb**
 
-### 1.3.2. Func
+#### 1.4.1.2. Validation
 
-#### 1.3.2.1. Preprocessing
-
-* CNP_clinical_func_preprocess_corr_matrix.ipynb
-
-
-#### 1.3.2.2. Validation
-
-
-# NKI
-# Preprocess 
 
 
 
