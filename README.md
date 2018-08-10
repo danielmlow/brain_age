@@ -3,7 +3,11 @@ Predicting true age from T1 and resting state data.
 
 Started @ NeuroHackademy 2018
 
-
+# Sample Characteristics
+The model was trained and validated using the control sample (n = 122) from the Consortium for Neuropsychiatric Phenomics dataset (information about preprocessing of the rs-MRI and T1 scans can be found at https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5664981/). The clinical dataset was comprised of three samples:
+  - ADHD (n = 40)
+  - Bipolar (n = 49)
+  - Schizophrenia (n = 50)
 
 Preprocessing outputs npz files.
 
@@ -32,8 +36,7 @@ Preprocessing outputs npz files.
 
 
 
-## 1.3. Clinical
-
+## 1.3. Clinical 
 
 
 ### 1.3.1. T1
